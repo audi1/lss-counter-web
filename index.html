@@ -24,11 +24,13 @@
 
         h1 {
             color: #fc0;
-            font-size: 30px;
+            font-size: 8vmax;
             font-weight: 800;
             font-family: 'Oswald', sans-serif;
             padding: 5px;
             text-align: center;
+            flex-grow: 1;
+            align-self: center;
         }
 
         .scorp {
@@ -57,9 +59,9 @@
         }
 
         header {
-            display: block;
+            display: flex;
             margin: 1px;
-            align-items: center;
+            justify-content: space-between;
         }
 
 
@@ -107,46 +109,54 @@
 
         @media (max-width: 576px) {
             .shadow {
-                max-width: 25rem;
-                max-height: 10rem;
-                width: 5rem;
+                max-width: 10rem;
+                max-height: 15rem;
+                width: 25rem;
+            }
+            
+            .scorp {
+                max-width: 10rem;
+                max-height: 15rem;
+                width: 30rem;
             }
 
-            .scorp {
-                max-width: 30rem;
-                max-height: 10rem;
-                width: 5rem;
+            h1 {
+                font-size: 3vmax;
             }
 
         }
 
         @media (min-width: 577px) {
             .shadow {
-                max-width: 25rem;
-                max-height: 30rem;
+                max-width: 20rem;
+                max-height: 25rem;
                 width: 25rem;
             }
             
             .scorp {
-                max-width: 35rem;
-                max-height: 30rem;
+                max-width: 20rem;
+                max-height: 25rem;
                 width: 30rem;
+            }
+
+            h1 {
+                font-size: 6vmax;
             }
         }
 
 
         @media (min-width: 1200px) {
             .shadow {
-                max-width: 25rem;
-                max-height: 40rem;
-                width: 25rem;
+                max-width: 40rem;
+                max-height: 50rem;
+                width: 40rem;
 
             }
 
             .scorp {
-                max-width: 30rem;
-                max-height: 40rem;
-                width: 30rem;
+                max-width: 40rem;
+                max-height: 50rem;
+                width: 40rem;
             }
         }
     </style>
@@ -156,11 +166,15 @@
 <body>
 
     <header>
+        <img src="assets/scorp-edited.jpg" alt="Scorpion" class="scorp">
+
         <h1>Counter APCs</h1>
+
+        <img src="assets/shadow-edit.jpg" alt="shadow" class="shadow">
+
     </header>
 
     <section class="parent">
-        <img src="assets/scorp-edited.jpg" alt="Scorpion" class="scorp">
 
         <div class="table-responsive">
             <table class="table">
@@ -612,7 +626,6 @@
             </table>
         </div>
 
-        <img src="assets/shadow-edit.jpg" alt="shadow" class="shadow">
 
 
     </section>
