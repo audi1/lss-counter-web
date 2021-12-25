@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@100&display=swap');
+
+        body {
+            background-color: black;
+            margin: 0;
+            overflow-x: hidden;
+            max-width: 100%;
+        }
+
+        h1 {
+            color: #fc0;
+            font-size: 5vmin;
+            font-weight: 800;
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .scorp {
+            /* width: 30%; */
+            height: auto;
+            float: left;
+            
+        }
+
+        .shadow {
+            /* width: 20%; */
+            height: auto;
+            float: right;
+
+        }
+
+
+        .table {
+            overflow-x: auto;
+        }
+
+        .parent {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+
+        table {
+            /* border: 10px solid #595959; */
+            width: 80%;
+            padding: 0;
+            border-collapse: collapse;
+            overflow-x: auto;
+
+        }
+
+        th {
+            font-family: Roboto;
+            text-align: center;
+            /* font-size: 1vmax; */
+            color: #595959;
+        }
+
+        td {
+            color: white;
+            font-family: Roboto;
+            text-align: center;
+            /* font-size: 1vmax; */
+            padding: 1em;
+            word-wrap: break-word;
+        }
+
+        tr>td {
+            border-top: 1pt solid #595959;
+        }
+
+        @media (max-width: 576px) {
+            .shadow {
+                max-width: 25rem;
+                max-height: 30rem;
+                width: 10rem;
+            }
+
+            .scorp {
+                max-width: 25rem;
+                max-height: 30rem;
+                width: 10rem;
+            }
+
+        }
+
+        @media (min-width: 577px) {
+            .shadow {
+                max-width: 25rem;
+                max-height: 30rem;
+                width: 25rem;
+            }
+
+            .scorp {
+                max-width: 25rem;
+                max-height: 30rem;
+                width: 25rem;
+            }
+        }
+
+
+        @media (min-width: 1200px) {
+            .shadow {
+                max-width: 25rem;
+                max-height: 40rem;
+                width: 25rem;
+
+            }
+
+            .scorp {
+                max-width: 25rem;
+                max-height: 40rem;
+                width: 25rem;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <head>
+        <h1>Counter APCs</h1>
+    </head>
+
+    <section class="parent">
+        <img src="assets/scorp-edited.jpg" alt="Scorpion" class="scorp">
+
+        <table>
+            <tr>
+                <th>APC</th>
+                <th>Counter APC</th>
+            </tr>
+
+
+            <tr>
+                <td>Ana/Cyclone/Huntress</td>
+                <td>Kami/Retro/Death; Cannon/Tech/Bird</td>
+            </tr>
+            <tr>
+                <td>Ana/Huntress/Cyclne</td>
+                <td>Tech/Cannon/Lust</td>
+            </tr>
+            <tr>
+                <td>Ana/Nomad/Huntress</td>
+                <td>Cesar/Tech/Bird</td>
+            </tr>
+            <tr>
+                <td>Ana/Nomad/Valk</td>
+                <td>Tech/Lust/Heaven</td>
+            </tr>
+            <tr>
+                <td>Ana/Pred/Huntress</td>
+                <td>Kami/Tech/Wrath; Tech/Pred/Nomad</td>
+            </tr>
+            <tr>
+                <td>Ana/Cyclone/Ivan</td>
+                <td>HR/DR/Retro</td>
+            </tr>
+            <tr>
+                <td>Betrayed/Rose/Bird</td>
+                <td>Death/Scorp/Dawn; Kami/Heaven/Ivan</td>
+            </tr>
+            <tr>
+                <td>Bird Generally</td>
+                <td>Use Huntress opposite row and/or Scarlet</td>
+            </tr>
+            <tr>
+                <td>Cannon/Lust/Scorp</td>
+                <td>Ana/Huntress/Ivan</td>
+            </tr>
+            <tr>
+                <td>Cannon/Scorp/Dawn</td>
+                <td>Siren/Scorp/Dawn; Flare/Siren/Dawn; Ana/Huntress/Cyclone; Cannon/Tech/Nomad</td>
+            </tr>
+            <tr>
+                <td>Cannon/Tech/Bird</td>
+                <td>Tech/Heaven/Bird</td>
+            </tr>
+            <tr>
+                <td>Cannon/Tech/Nomad</td>
+                <td>Cesar/Ana/lvan</td>
+            </tr>
+            <tr>
+                <td>Cesar/Cannon/Lust</td>
+                <td>Cesar/Ana/Huntress; Flare/Siren/Dawn</td>
+            </tr>
+            <tr>
+                <td>Cesar/Lust/Dawn</td>
+                <td>Flare/Dawn/Tech</td>
+            </tr>
+            <tr>
+                <td>Cesar/Kami/Bird</td>
+                <td>Tech/Huntress/Scarlet</td>
+            </tr>
+            <tr>
+                <td>Cesar/Tech/Bird</td>
+                <td>Kami/Retro/Death</td>
+            </tr>
+            <tr>
+                <td>Collector/Retro/DR</td>
+                <td>Flare/Siren/Dawn, Cyclone Ivan Ana (just ok); HR/Dawn/Scorp;Tech/Scorp/DR;Tech/Wrath/Scorp</td>
+            </tr>
+            <tr>
+                <td>Collector/Death/Retro</td>
+                <td>Cyclone/Ivan/Ana</td>
+            </tr>
+            <tr>
+                <td>Cyclone/Ana/Huntress</td>
+                <td>Kami/Retro/Death; Heaven/Death/Scorp; Flare/Retro/Dawn(D)</td>
+            </tr>
+            <tr>
+                <td>Cyclone/Ana/Ivan</td>
+                <td>Tech/Lust/Heaven; Heaven/Scorp/Dawn</td>
+            </tr>
+            <tr>
+                <td>Cyclone/Huntress/Ana</td>
+                <td>Heaven/Retro/Death; Tech/Lust/Heaven; Cesar/Cannon/Bird; Tech/Cannon/Lust*; Kami/Heaven/Death;
+                    Flare/Re</td>
+            </tr>
+            <tr>
+                <td>Cyclone/Ivan/Ana</td>
+                <td>Flare/Siren/Dawn; Kami/Tech/Wrath;Collector/Retro/DR (defense); Flare/Tech/Dawn</td>
+            </tr>
+            <tr>
+                <td>Dawn/Scorp/Glow</td>
+                <td>Pred/Scorp/Glow;Death/Scorp/Glow</td>
+            </tr>
+            <tr>
+                <td>Death/Dawn/Scorp</td>
+                <td>Heaven/Death/Scorp</td>
+            </tr>
+            <tr>
+                <td>Death/Scorp/Dawn</td>
+                <td>Cesar/Heaven/Death; Tech/Wrath/Bird; Sisters; Kami/Heaven/Ivan; Heaven/Scorp/Dawn</td>
+            </tr>
+            <tr>
+                <td>Deus/Lust/Rose</td>
+                <td>Ivan/Heaven/Tech</td>
+            </tr>
+            <tr>
+                <td>Deus/Valk/Bird</td>
+                <td>Kami/Tech/Bird</td>
+            </tr>
+            <tr>
+                <td>Deus/Rose/Bird</td>
+                <td>Russians</td>
+            </tr>
+            <tr>
+                <td>Flare/Retro/Dawn</td>
+                <td>Kami/Tech/Wrath; Heaven/Death/Retro; Huntress/Ivan/Ana; Flare/Wrath/Dawn</td>
+            </tr>
+            <tr>
+                <td>Flare/Siren/Dawn</td>
+                <td>Organic/Death/Heaven; Kami/Tech/Wrath; Sire/Scorp/Dawn; HR/DR/Scorp; HR/DR/Retro; HR/Glow/Scorp;
+                    Tech/</td>
+            </tr>
+            <tr>
+                <td>Flare/Tech/Dawn</td>
+                <td>Flare/Wrath/Death; HR/DR/Retro;Tech/Wrath/Scorp</td>
+            </tr>
+            <tr>
+                <td>Flare/Dawn/Tech</td>
+                <td>Flare/Siren/Dawn</td>
+            </tr>
+            <tr>
+                <td>Flare/Fortune/Dawn</td>
+                <td>Flare/Tech/Wrath</td>
+            </tr>
+            <tr>
+                <td>Flare/Scorp/Dawn</td>
+                <td>HR/Glow/Scorp</td>
+            </tr>
+            <tr>
+                <td>Glass cannons generally</td>
+                <td>Put Huntress in opposite row</td>
+            </tr>
+            <tr>
+                <td>Glutton/Tech/Bird</td>
+                <td>Russians; Kami/Ivan/Ana</td>
+            </tr>
+            <tr>
+                <td>Glutton/Cesar/Bird</td>
+                <td>Cannon/Scorp/Dawn</td>
+            </tr>
+            <tr>
+                <td>Glutton/Heaven/Bird</td>
+                <td>Tech/Cannon/Lust*; Cannon/Scorp/Dawn*</td>
+            </tr>
+            <tr>
+                <td>Heaven/Dawn/Scorp</td>
+                <td>Ana/Cyclone/Huntress;Tech/Heaven/Bird</td>
+            </tr>
+            <tr>
+                <td>Heaven/Death/Retro</td>
+                <td>Kami/Tech/Wrath; Retro/Nomad/Rose; Flare/Siren/Scorp; Flare/Siren/Dawn</td>
+            </tr>
+            <tr>
+                <td>Heaven/Death/Scorp</td>
+                <td>Flare/Wrath/Dawn; Ana/Nomad/Valk; Siren/Scorp/Dawn; Cyclone/Huntress/Ana; Flare/Siren/Dawn</td>
+            </tr>
+            <tr>
+                <td>Heaven/Glow/Scorp</td>
+                <td>Kami/Nomad/Dawn; Collector/Retro/DR; Flare/Tech /Dawn (defense); Flare/Siren/Dawn</td>
+            </tr>
+            <tr>
+                <td>Heaven/Scorp/Cannon</td>
+                <td>Russians; Siren/Scorp/Dawn</td>
+            </tr>
+            <tr>
+                <td>Heven/Scorp/Glow</td>
+                <td>Flare/Siren/Dawn</td>
+            </tr>
+            <tr>
+                <td>Heaven/Scorp/Dawn</td>
+                <td>Russians; Heaven/Dawn/Scorp; Huntress/Ivan/Ana; ech/Wrath/Cannon; Scarlet/Scorp/Dawn;
+                    Retro/Ivan/Death</td>
+            </tr>
+            <tr>
+                <td>Heaven/Scorp/Retro</td>
+                <td>Heaven/Glow/Scorp</td>
+            </tr>
+            <tr>
+                <td>Heaven/Tech/Bird</td>
+                <td>Kami/Death/Retro</td>
+            </tr>
+            <tr>
+                <td>Heaven/Retro/Countdown</td>
+                <td>Kami/Wrath/Countdown;Tech/Cannon/Lust; Ana/Huntress/Ivan</td>
+            </tr>
+            <tr>
+                <td>Heaven/Ivan/Ana</td>
+                <td>Ivan/Tech/Dawn</td>
+            </tr>
+            <tr>
+                <td>Heaven/Retro/Death</td>
+                <td>Cyclone/Huntress/Ana; Flare/Siren/Dawn</td>
+            </tr>
+            <tr>
+                <td>Huntress generally</td>
+                <td>Put healer in opposite row ; Run two damage dealers</td>
+            </tr>
+            <tr>
+                <td>Huntress/Ivan/Ana</td>
+                <td>Russians; Cesar/Lust/Heaven; Heaven/Retro/Death</td>
+            </tr>
+            <tr>
+                <td>Iron/Heaven/Bird</td>
+                <td>Ana/Huntress/Ivan</td>
+            </tr>
+            <tr>
+                <td>Ivan/Huntress/Rose</td>
+                <td>Cesar/Tech/Bird</td>
+            </tr>
+            <tr>
+                <td>Kami/Ana/Ivan</td>
+                <td>Tech/Cannon/Lust*; Kami/Huntress/Ivan</td>
+            </tr>
+            <tr>
+                <td>Kami/Cesar/Bird</td>
+                <td>Heaven/Tech/Bird</td>
+            </tr>
+            <tr>
+                <td>Kami/Cesar/Huntress</td>
+                <td>Tech/Heaven/Cannon*</td>
+            </tr>
+            <tr>
+                <td>Kami/Cesar/Death</td>
+                <td>Tech/Cannon/Lust*</td>
+            </tr>
+            <tr>
+                <td>Kami/Cesar/Retro</td>
+                <td>Tech/Scorp/Heaven</td>
+            </tr>
+            <tr>
+                <td>Kami/Cesar/Wrath</td>
+                <td>Kami/Tech/Wrath; Flare/Tech/Dawn</td>
+            </tr>
+            <tr>
+                <td>Kami/Dawn/Scorp</td>
+                <td>HR/Retro/DR</td>
+            </tr>
+            <tr>
+                <td>Kami/Death/Retro</td>
+                <td>Heaven/Death/Scorp</td>
+            </tr>
+            <tr>
+                <td>Kami/Death/Wrath</td>
+                <td>Kami/Tech/Wrath; Flare/Siren/Dawn (D)</td>
+            </tr>
+            <tr>
+                <td>Kami/Flare/Wrath</td>
+                <td>Heaven/Death/Retro</td>
+            </tr>
+            <tr>
+                <td>Kami/Fortune/Wrath</td>
+                <td>Dawn/Scorp/Glow</td>
+            </tr>
+            <tr>
+                <td>Kami/Heaven/Bird</td>
+                <td>Cesar/Tech/Bird</td>
+            </tr>
+            <tr>
+                <td>Kami/Heaven/Death</td>
+                <td>Tech/Venom/Bird; Heaven/Ivan/Ana</td>
+            </tr>
+            <tr>
+                <td>Kami/Heaven/Hunt</td>
+                <td>HR/Retro/DR</td>
+            </tr>
+            <tr>
+                <td>Kami/Heaven/Ivan</td>
+                <td>Russians; Tech/Lust/Death;Tech/Lust/Heaven; Kami/Retro/Death; Kami/Heaven/Retro; Cesar/Cannon/Lust;
+                    Kam</td>
+            </tr>
+            <tr>
+                <td>Kami/Heaven/Retro</td>
+                <td>Kami/Retro/Death</td>
+            </tr>
+            <tr>
+                <td>Kami/Heaven/Scorp</td>
+                <td>Heaven/Dawn/Scorp; Kami/Retro/Death; Cesar/Tech/Scarlet</td>
+            </tr>
+            <tr>
+                <td>Kami/Heaven/Scorp</td>
+                <td>Ana/Huntress/Ivan</td>
+            </tr>
+            <tr>
+                <td>Kami/Ivan/Ana</td>
+                <td>Tech/Scorp/Dawn; Cannon/Scorp/Dawn</td>
+            </tr>
+            <tr>
+                <td>Kami/Ivan/Death</td>
+                <td>Kami/Scorp/Dawn; Kami/Tech/Bird</td>
+            </tr>
+            <tr>
+                <td>Kami/Nomad/Dawn</td>
+                <td>Heave/Death/Scorp</td>
+            </tr>
+            <tr>
+                <td>Kami/Retro/Death</td>
+                <td>Cyclone/Ana/Huntress; Cannon/Bird/Scorp; Siren/Scorp/Dawn; Cyclone/Huntress/Ana; Cyclone/lvan/Ana
+                </td>
+            </tr>
+            <tr>
+                <td>Kami/Scorp/Dawn</td>
+                <td>Heaven/Scorp/Dawn</td>
+            </tr>
+            <tr>
+                <td>Kami/Tech/Bird</td>
+                <td>Kami/Tech/Wrath</td>
+            </tr>
+            <tr>
+                <td>Kami/Tech/Wrath</td>
+                <td>Flare/Retro/Dawn; HR/Scorp/DR;Tech/Cannon/Lust; Siren/Scorp/Dawn;Tech/Scorp/DR;Kami/Scorp/Dawn;
+                    Flare</td>
+            </tr>
+            <tr>
+                <td>Kami/Wrath/Death</td>
+                <td>Koschei/Nomad/Ana; Ana/Nomad/Valk; Cannon/Scorp/Dawn</td>
+            </tr>
+            <tr>
+                <td>Kami/Ivan/Heaven</td>
+                <td>Flare/Retro/Death;Tech/Iron/Bird</td>
+            </tr>
+            <tr>
+                <td>Kami/Wrath/Countdown</td>
+                <td>Heaven/Retro/Countdown; Kami/Tech/Wrath*;Heaven/Tech/Bird</td>
+            </tr>
+            <tr>
+                <td>Retro/Nomad/Rose</td>
+                <td>Tech/Cesar/Lust</td>
+            </tr>
+            <tr>
+                <td>Retro/Scorp/Dawn</td>
+                <td>Cyclone/Huntress/Ana</td>
+            </tr>
+            <tr>
+                <td>Retro/Heaven/Ivan</td>
+                <td>Kami/Ana/Ivan</td>
+            </tr>
+            <tr>
+                <td>Retro/Glow/Scorp</td>
+                <td>Ana/Ivan/Cyclone; Flare/Siren/Dawn</td>
+            </tr>
+            <tr>
+                <td>Retro/Collector/Death</td>
+                <td>Tech/Death/Wrath; Flare/Retro/Dawn</td>
+            </tr>
+            <tr>
+                <td>Siren/Dawn/Scorp</td>
+                <td>Ana/Predator/Huntress; Kami/Tech/Wrath; Kami/Heaven/Dawn; Kami/Heaven/Ivan</td>
+            </tr>
+            <tr>
+                <td>Siren/Scorp/Dawn</td>
+                <td>Huntress in mid; Kami/Retro/DR; Kami/HR/DR *; Tech Cannon Lust; HR/DR/Scorp*; Kami/Heaven/Ivan;
+                    HR/Far/Iv</td>
+            </tr>
+            <tr>
+                <td>Siren/Dawn/Retro</td>
+                <td>Cyclone/Huntress/Ana</td>
+            </tr>
+            <tr>
+                <td>Scorpion Generally</td>
+                <td>Flare/Scarlet/Dawn</td>
+            </tr>
+            <tr>
+                <td>Shadow/Nomad/Valk</td>
+                <td>Flare/Retro/Dawn</td>
+            </tr>
+            <tr>
+                <td>Tech/DR/Wrath</td>
+                <td>Cyclone/Ivan/Ana</td>
+            </tr>
+            <tr>
+                <td>Tech/Lust/Heaven</td>
+                <td>Kami/Heaven/Ivan; Shadow/Tech/Scarlet; Heaven/Scorp/Dawn; Ana/Huntress/Cyclone</td>
+            </tr>
+            <tr>
+                <td>Tech/Scorp/Dawn</td>
+                <td>Tech/Lust/Death; Huntress/Ivan/Ana; Heaven/Tech/Bird;Tech/Lust/Heaven; Heaven/Scorp/Retro*;
+                    Cyclone/Ivan</td>
+            </tr>
+            <tr>
+                <td>Tech/Scorp/Heaven</td>
+                <td>Kami/Retro/Death; Heaven/Scorp/Retro;Tech/Death/Lust*; Kami/Ivan/Ana</td>
+            </tr>
+            <tr>
+                <td>Tech/Cannon/Lust</td>
+                <td>Glutton/Heaven/Bird;Scarlet/Scorp/Dawn; Cyclone/Huntress/Ana; HR/DR/Retro; Flare/Siren/Dawn</td>
+            </tr>
+            <tr>
+                <td>Tech/Lust/Rose</td>
+                <td>Cyclone/Huntress/Ana*</td>
+            </tr>
+            <tr>
+                <td>Tech/Kami/Bird</td>
+                <td>Tech/Iron/Bird</td>
+            </tr>
+            <tr>
+                <td>Tech/Retro/Lust</td>
+                <td>HR/DR/Retro; Flare/Tech/Dawn</td>
+            </tr>
+            <tr>
+                <td>Tech/Scorp/Wrath</td>
+                <td>Cyclone/Huntress/Ana</td>
+            </tr>
+            <tr>
+                <td>Tech/Wrath/Lust</td>
+                <td>Cyclone/Ivan/Ana</td>
+            </tr>
+            <tr>
+                <td>Tech/Wrath/Bird</td>
+                <td>Ana/Tracker/Huntress</td>
+            </tr>
+            <tr>
+                <td>Tech/Wrath/Cannon</td>
+                <td>Kami/Huntress/Ana; Tech/Cannon/Lust; Flare/Siren/Dawn; Kami/Tech/Wrath</td>
+            </tr>
+            <tr>
+                <td>Tech/Wrath/Retro</td>
+                <td>HR/Glow/Scorp</td>
+            </tr>
+            <tr>
+                <td>Venom/Scorp/Cannon</td>
+                <td>Flare/Siren/Dawn</td>
+            </tr>
+
+
+
+        </table>
+
+
+        <img src="assets/shadow-edit.jpg" alt="shadow" class="shadow">
+
+
+    </section>
+
+</body>
+
+</html>
