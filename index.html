@@ -25,14 +25,14 @@
             font-weight: 800;
             font-family: 'Oswald', sans-serif;
             padding: 5px;
-            position: absolute;
+            text-align: center;
         }
 
         .scorp {
             /* width: 30%; */
             height: auto;
             float: left;
-            
+
         }
 
         .shadow {
@@ -50,7 +50,7 @@
         .parent {
             display: flex;
             justify-content: space-between;
-            
+
         }
 
         header {
@@ -66,6 +66,7 @@
             padding: 0;
             border-collapse: collapse;
             overflow-x: auto;
+            column-width: 1vw;
 
         }
 
@@ -82,7 +83,7 @@
             text-align: center;
             /* font-size: 1vmax; */
             padding: 1em;
-            word-wrap: break-word;
+            white-space: pre;
         }
 
         tr>td {
@@ -138,10 +139,10 @@
 </head>
 
 <body>
-<!-- 
+
     <header>
         <h1>Counter APCs</h1>
-    </header> -->
+    </header>
 
     <section class="parent">
         <img src="assets/scorp-edited.jpg" alt="Scorpion" class="scorp">
@@ -155,7 +156,7 @@
 
             <tr>
                 <td>Ana/Cyclone/Huntress</td>
-                <td>Kami/Retro/Death; Cannon/Tech/Bird</td>
+                <td>Kami/Retro/Death</br>Cannon/Tech/Bird</td>
             </tr>
             <tr>
                 <td>Ana/Huntress/Cyclne</td>
@@ -171,7 +172,7 @@
             </tr>
             <tr>
                 <td>Ana/Pred/Huntress</td>
-                <td>Kami/Tech/Wrath; Tech/Pred/Nomad</td>
+                <td>Kami/Tech/Wrath</br>Tech/Pred/Nomad</td>
             </tr>
             <tr>
                 <td>Ana/Cyclone/Ivan</td>
@@ -179,7 +180,7 @@
             </tr>
             <tr>
                 <td>Betrayed/Rose/Bird</td>
-                <td>Death/Scorp/Dawn; Kami/Heaven/Ivan</td>
+                <td>Death/Scorp/Dawn</br>Kami/Heaven/Ivan</td>
             </tr>
             <tr>
                 <td>Bird Generally</td>
@@ -191,7 +192,7 @@
             </tr>
             <tr>
                 <td>Cannon/Scorp/Dawn</td>
-                <td>Siren/Scorp/Dawn; Flare/Siren/Dawn; Ana/Huntress/Cyclone; Cannon/Tech/Nomad</td>
+                <td>Siren/Scorp/Dawn</br>Flare/Siren/Dawn</br>Ana/Huntress/Cyclone</br>Cannon/Tech/Nomad</td>
             </tr>
             <tr>
                 <td>Cannon/Tech/Bird</td>
@@ -203,7 +204,7 @@
             </tr>
             <tr>
                 <td>Cesar/Cannon/Lust</td>
-                <td>Cesar/Ana/Huntress; Flare/Siren/Dawn</td>
+                <td>Cesar/Ana/Huntress</br>Flare/Siren/Dawn</td>
             </tr>
             <tr>
                 <td>Cesar/Lust/Dawn</td>
@@ -219,7 +220,7 @@
             </tr>
             <tr>
                 <td>Collector/Retro/DR</td>
-                <td>Flare/Siren/Dawn, Cyclone Ivan Ana (just ok); HR/Dawn/Scorp;Tech/Scorp/DR;Tech/Wrath/Scorp</td>
+                <td>Flare/Siren/Dawn, Cyclone Ivan Ana (just ok)</br>HR/Dawn/Scorp</br>Tech/Scorp/DR</br>Tech/Wrath/Scorp</td>
             </tr>
             <tr>
                 <td>Collector/Death/Retro</td>
@@ -227,24 +228,23 @@
             </tr>
             <tr>
                 <td>Cyclone/Ana/Huntress</td>
-                <td>Kami/Retro/Death; Heaven/Death/Scorp; Flare/Retro/Dawn(D)</td>
+                <td>Kami/Retro/Death</br>Heaven/Death/Scorp</br>Flare/Retro/Dawn(D)</td>
             </tr>
             <tr>
                 <td>Cyclone/Ana/Ivan</td>
-                <td>Tech/Lust/Heaven; Heaven/Scorp/Dawn</td>
+                <td>Tech/Lust/Heaven</br>Heaven/Scorp/Dawn</td>
             </tr>
             <tr>
                 <td>Cyclone/Huntress/Ana</td>
-                <td>Heaven/Retro/Death; Tech/Lust/Heaven; Cesar/Cannon/Bird; Tech/Cannon/Lust*; Kami/Heaven/Death;
-                    Flare/Re</td>
+                <td>Heaven/Retro/Death</br>Tech/Lust/Heaven</br>Cesar/Cannon/Bird</br>Tech/Cannon/Lust*</br>Kami/Heaven/Death</br>Flare/Re</td>
             </tr>
             <tr>
                 <td>Cyclone/Ivan/Ana</td>
-                <td>Flare/Siren/Dawn; Kami/Tech/Wrath;Collector/Retro/DR (defense); Flare/Tech/Dawn</td>
+                <td>Flare/Siren/Dawn</br>Kami/Tech/Wrath</br>Collector/Retro/DR (defense)</br>Flare/Tech/Dawn</td>
             </tr>
             <tr>
                 <td>Dawn/Scorp/Glow</td>
-                <td>Pred/Scorp/Glow;Death/Scorp/Glow</td>
+                <td>Pred/Scorp/Glow</br>Death/Scorp/Glow</td>
             </tr>
             <tr>
                 <td>Death/Dawn/Scorp</td>
@@ -252,7 +252,8 @@
             </tr>
             <tr>
                 <td>Death/Scorp/Dawn</td>
-                <td>Cesar/Heaven/Death; Tech/Wrath/Bird; Sisters; Kami/Heaven/Ivan; Heaven/Scorp/Dawn</td>
+                <td>Cesar/Heaven/Death</br>Tech/Wrath/Bird</br>Sisters</br>Kami/Heaven/Ivan</br>Heaven/Scorp/Dawn
+                </td>
             </tr>
             <tr>
                 <td>Deus/Lust/Rose</td>
@@ -268,16 +269,15 @@
             </tr>
             <tr>
                 <td>Flare/Retro/Dawn</td>
-                <td>Kami/Tech/Wrath; Heaven/Death/Retro; Huntress/Ivan/Ana; Flare/Wrath/Dawn</td>
+                <td>Kami/Tech/Wrath</br>Heaven/Death/Retro</br>Huntress/Ivan/Ana</br>Flare/Wrath/Dawn</td>
             </tr>
             <tr>
                 <td>Flare/Siren/Dawn</td>
-                <td>Organic/Death/Heaven; Kami/Tech/Wrath; Sire/Scorp/Dawn; HR/DR/Scorp; HR/DR/Retro; HR/Glow/Scorp;
-                    Tech/</td>
+                <td>Organic/Death/Heaven</br>Kami/Tech/Wrath</br>Sire/Scorp/Dawn</br>HR/DR/Scorp</br>HR/DR/Retro</br>HR/Glow/Scorp</br>Tech</td>
             </tr>
             <tr>
                 <td>Flare/Tech/Dawn</td>
-                <td>Flare/Wrath/Death; HR/DR/Retro;Tech/Wrath/Scorp</td>
+                <td>Flare/Wrath/Death</br>HR/DR/Retro</br>Tech/Wrath/Scorp</td>
             </tr>
             <tr>
                 <td>Flare/Dawn/Tech</td>
@@ -297,7 +297,7 @@
             </tr>
             <tr>
                 <td>Glutton/Tech/Bird</td>
-                <td>Russians; Kami/Ivan/Ana</td>
+                <td>Russians</br>Kami/Ivan/Ana</td>
             </tr>
             <tr>
                 <td>Glutton/Cesar/Bird</td>
@@ -305,27 +305,28 @@
             </tr>
             <tr>
                 <td>Glutton/Heaven/Bird</td>
-                <td>Tech/Cannon/Lust*; Cannon/Scorp/Dawn*</td>
+                <td>Tech/Cannon/Lust*</br>Cannon/Scorp/Dawn*</td>
             </tr>
             <tr>
                 <td>Heaven/Dawn/Scorp</td>
-                <td>Ana/Cyclone/Huntress;Tech/Heaven/Bird</td>
+                <td>Ana/Cyclone/Huntress</br>Tech/Heaven/Bird</td>
             </tr>
             <tr>
                 <td>Heaven/Death/Retro</td>
-                <td>Kami/Tech/Wrath; Retro/Nomad/Rose; Flare/Siren/Scorp; Flare/Siren/Dawn</td>
+                <td>Kami/Tech/Wrath</br>Retro/Nomad/Rose</br>Flare/Siren/Scorp</br>Flare/Siren/Dawn</td>
             </tr>
             <tr>
                 <td>Heaven/Death/Scorp</td>
-                <td>Flare/Wrath/Dawn; Ana/Nomad/Valk; Siren/Scorp/Dawn; Cyclone/Huntress/Ana; Flare/Siren/Dawn</td>
+                <td>Flare/Wrath/Dawn</br>Ana/Nomad/Valk</br>Siren/Scorp/Dawn</br>Cyclone/Huntress/Ana</br>
+                    Flare/Siren/Dawn</td>
             </tr>
             <tr>
                 <td>Heaven/Glow/Scorp</td>
-                <td>Kami/Nomad/Dawn; Collector/Retro/DR; Flare/Tech /Dawn (defense); Flare/Siren/Dawn</td>
+                <td>Kami/Nomad/Dawn</br>Collector/Retro/DR</br>Flare/Tech /Dawn (defense)</br>Flare/Siren/Dawn</td>
             </tr>
             <tr>
                 <td>Heaven/Scorp/Cannon</td>
-                <td>Russians; Siren/Scorp/Dawn</td>
+                <td>Russians</br>Siren/Scorp/Dawn</td>
             </tr>
             <tr>
                 <td>Heven/Scorp/Glow</td>
@@ -333,8 +334,7 @@
             </tr>
             <tr>
                 <td>Heaven/Scorp/Dawn</td>
-                <td>Russians; Heaven/Dawn/Scorp; Huntress/Ivan/Ana; ech/Wrath/Cannon; Scarlet/Scorp/Dawn;
-                    Retro/Ivan/Death</td>
+                <td>Russians</br>Heaven/Dawn/Scorp</br>Huntress/Ivan/Ana</br>ech/Wrath/Cannon</br>Scarlet/Scorp/Dawn</br>Retro/Ivan/Death</td>
             </tr>
             <tr>
                 <td>Heaven/Scorp/Retro</td>
@@ -346,7 +346,7 @@
             </tr>
             <tr>
                 <td>Heaven/Retro/Countdown</td>
-                <td>Kami/Wrath/Countdown;Tech/Cannon/Lust; Ana/Huntress/Ivan</td>
+                <td>Kami/Wrath/Countdown</br>Tech/Cannon/Lust</br>Ana/Huntress/Ivan</td>
             </tr>
             <tr>
                 <td>Heaven/Ivan/Ana</td>
@@ -354,15 +354,15 @@
             </tr>
             <tr>
                 <td>Heaven/Retro/Death</td>
-                <td>Cyclone/Huntress/Ana; Flare/Siren/Dawn</td>
+                <td>Cyclone/Huntress/Ana</br>Flare/Siren/Dawn</td>
             </tr>
             <tr>
                 <td>Huntress generally</td>
-                <td>Put healer in opposite row ; Run two damage dealers</td>
+                <td>Put healer in opposite row</br>Run two damage dealers</td>
             </tr>
             <tr>
                 <td>Huntress/Ivan/Ana</td>
-                <td>Russians; Cesar/Lust/Heaven; Heaven/Retro/Death</td>
+                <td>Russians</br>Cesar/Lust/Heaven</br>Heaven/Retro/Death</td>
             </tr>
             <tr>
                 <td>Iron/Heaven/Bird</td>
@@ -374,7 +374,7 @@
             </tr>
             <tr>
                 <td>Kami/Ana/Ivan</td>
-                <td>Tech/Cannon/Lust*; Kami/Huntress/Ivan</td>
+                <td>Tech/Cannon/Lust*</br>Kami/Huntress/Ivan</td>
             </tr>
             <tr>
                 <td>Kami/Cesar/Bird</td>
@@ -394,7 +394,7 @@
             </tr>
             <tr>
                 <td>Kami/Cesar/Wrath</td>
-                <td>Kami/Tech/Wrath; Flare/Tech/Dawn</td>
+                <td>Kami/Tech/Wrath</br>Flare/Tech/Dawn</td>
             </tr>
             <tr>
                 <td>Kami/Dawn/Scorp</td>
@@ -406,7 +406,7 @@
             </tr>
             <tr>
                 <td>Kami/Death/Wrath</td>
-                <td>Kami/Tech/Wrath; Flare/Siren/Dawn (D)</td>
+                <td>Kami/Tech/Wrath</br>Flare/Siren/Dawn (D)</td>
             </tr>
             <tr>
                 <td>Kami/Flare/Wrath</td>
@@ -422,7 +422,7 @@
             </tr>
             <tr>
                 <td>Kami/Heaven/Death</td>
-                <td>Tech/Venom/Bird; Heaven/Ivan/Ana</td>
+                <td>Tech/Venom/Bird</br>Heaven/Ivan/Ana</td>
             </tr>
             <tr>
                 <td>Kami/Heaven/Hunt</td>
@@ -430,8 +430,7 @@
             </tr>
             <tr>
                 <td>Kami/Heaven/Ivan</td>
-                <td>Russians; Tech/Lust/Death;Tech/Lust/Heaven; Kami/Retro/Death; Kami/Heaven/Retro; Cesar/Cannon/Lust;
-                    Kam</td>
+                <td>Russians</br>Tech/Lust/Death</br>Tech/Lust/Heaven</br>Kami/Retro/Death</br>Kami/Heaven/Retro</br>Cesar/Cannon/Lust</br>Kami</td>
             </tr>
             <tr>
                 <td>Kami/Heaven/Retro</td>
@@ -439,7 +438,7 @@
             </tr>
             <tr>
                 <td>Kami/Heaven/Scorp</td>
-                <td>Heaven/Dawn/Scorp; Kami/Retro/Death; Cesar/Tech/Scarlet</td>
+                <td>Heaven/Dawn/Scorp</br>Kami/Retro/Death</br>Cesar/Tech/Scarlet</td>
             </tr>
             <tr>
                 <td>Kami/Heaven/Scorp</td>
@@ -447,11 +446,11 @@
             </tr>
             <tr>
                 <td>Kami/Ivan/Ana</td>
-                <td>Tech/Scorp/Dawn; Cannon/Scorp/Dawn</td>
+                <td>Tech/Scorp/Dawn</br>Cannon/Scorp/Dawn</td>
             </tr>
             <tr>
                 <td>Kami/Ivan/Death</td>
-                <td>Kami/Scorp/Dawn; Kami/Tech/Bird</td>
+                <td>Kami/Scorp/Dawn</br>Kami/Tech/Bird</td>
             </tr>
             <tr>
                 <td>Kami/Nomad/Dawn</td>
@@ -459,8 +458,7 @@
             </tr>
             <tr>
                 <td>Kami/Retro/Death</td>
-                <td>Cyclone/Ana/Huntress; Cannon/Bird/Scorp; Siren/Scorp/Dawn; Cyclone/Huntress/Ana; Cyclone/lvan/Ana
-                </td>
+                <td>Cyclone/Ana/Huntress</br>Cannon/Bird/Scorp</br>Siren/Scorp/Dawn</br>Cyclone/Huntress/Ana</br>Cyclone/lvan/Ana</td>
             </tr>
             <tr>
                 <td>Kami/Scorp/Dawn</td>
@@ -472,20 +470,19 @@
             </tr>
             <tr>
                 <td>Kami/Tech/Wrath</td>
-                <td>Flare/Retro/Dawn; HR/Scorp/DR;Tech/Cannon/Lust; Siren/Scorp/Dawn;Tech/Scorp/DR;Kami/Scorp/Dawn;
-                    Flare</td>
+                <td>Flare/Retro/Dawn</br>HR/Scorp/DR</br>Tech/Cannon/Lust</br>Siren/Scorp/Dawn</br>Tech/Scorp/DR</br>Kami/Scorp/Dawn</br>Flare</td>
             </tr>
             <tr>
                 <td>Kami/Wrath/Death</td>
-                <td>Koschei/Nomad/Ana; Ana/Nomad/Valk; Cannon/Scorp/Dawn</td>
+                <td>Koschei/Nomad/Ana</br>Ana/Nomad/Valk</br>Cannon/Scorp/Dawn</td>
             </tr>
             <tr>
                 <td>Kami/Ivan/Heaven</td>
-                <td>Flare/Retro/Death;Tech/Iron/Bird</td>
+                <td>Flare/Retro/Death</br>Tech/Iron/Bird</td>
             </tr>
             <tr>
                 <td>Kami/Wrath/Countdown</td>
-                <td>Heaven/Retro/Countdown; Kami/Tech/Wrath*;Heaven/Tech/Bird</td>
+                <td>Heaven/Retro/Countdown</br>Kami/Tech/Wrath*</br>Heaven/Tech/Bird</td>
             </tr>
             <tr>
                 <td>Retro/Nomad/Rose</td>
@@ -501,20 +498,19 @@
             </tr>
             <tr>
                 <td>Retro/Glow/Scorp</td>
-                <td>Ana/Ivan/Cyclone; Flare/Siren/Dawn</td>
+                <td>Ana/Ivan/Cyclone</br>Flare/Siren/Dawn</td>
             </tr>
             <tr>
                 <td>Retro/Collector/Death</td>
-                <td>Tech/Death/Wrath; Flare/Retro/Dawn</td>
+                <td>Tech/Death/Wrath</br>Flare/Retro/Dawn</td>
             </tr>
             <tr>
                 <td>Siren/Dawn/Scorp</td>
-                <td>Ana/Predator/Huntress; Kami/Tech/Wrath; Kami/Heaven/Dawn; Kami/Heaven/Ivan</td>
+                <td>Ana/Predator/Huntress</br>Kami/Tech/Wrath</br>Kami/Heaven/Dawn</br>Kami/Heaven/Ivan</td>
             </tr>
             <tr>
                 <td>Siren/Scorp/Dawn</td>
-                <td>Huntress in mid; Kami/Retro/DR; Kami/HR/DR *; Tech Cannon Lust; HR/DR/Scorp*; Kami/Heaven/Ivan;
-                    HR/Far/Iv</td>
+                <td>Huntress in mid</br>Kami/Retro/DR</br>Kami/HR/DR *</br>Tech Cannon Lust</br>HR/DR/Scorp*</br>Kami/Heaven/Ivan</br>HR/Far/Iv</td>
             </tr>
             <tr>
                 <td>Siren/Dawn/Retro</td>
@@ -534,20 +530,19 @@
             </tr>
             <tr>
                 <td>Tech/Lust/Heaven</td>
-                <td>Kami/Heaven/Ivan; Shadow/Tech/Scarlet; Heaven/Scorp/Dawn; Ana/Huntress/Cyclone</td>
+                <td>Kami/Heaven/Ivan</br>Shadow/Tech/Scarlet</br>Heaven/Scorp/Dawn</br>Ana/Huntress/Cyclone</td>
             </tr>
             <tr>
                 <td>Tech/Scorp/Dawn</td>
-                <td>Tech/Lust/Death; Huntress/Ivan/Ana; Heaven/Tech/Bird;Tech/Lust/Heaven; Heaven/Scorp/Retro*;
-                    Cyclone/Ivan</td>
+                <td>Tech/Lust/Death</br>Huntress/Ivan/Ana</br>Heaven/Tech/Bird</br>Tech/Lust/Heaven</br>Heaven/Scorp/Retro*</br>Cyclone/Ivan</td>
             </tr>
             <tr>
                 <td>Tech/Scorp/Heaven</td>
-                <td>Kami/Retro/Death; Heaven/Scorp/Retro;Tech/Death/Lust*; Kami/Ivan/Ana</td>
+                <td>Kami/Retro/Death</br>Heaven/Scorp/Retro</br>Tech/Death/Lust*</br>Kami/Ivan/Ana</td>
             </tr>
             <tr>
                 <td>Tech/Cannon/Lust</td>
-                <td>Glutton/Heaven/Bird;Scarlet/Scorp/Dawn; Cyclone/Huntress/Ana; HR/DR/Retro; Flare/Siren/Dawn</td>
+                <td>Glutton/Heaven/Bird</br>Scarlet/Scorp/Dawn</br>Cyclone/Huntress/Ana</br>HR/DR/Retro</br>Flare/Siren/Dawn</td>
             </tr>
             <tr>
                 <td>Tech/Lust/Rose</td>
@@ -559,7 +554,7 @@
             </tr>
             <tr>
                 <td>Tech/Retro/Lust</td>
-                <td>HR/DR/Retro; Flare/Tech/Dawn</td>
+                <td>HR/DR/Retro</br>Flare/Tech/Dawn</td>
             </tr>
             <tr>
                 <td>Tech/Scorp/Wrath</td>
@@ -575,7 +570,7 @@
             </tr>
             <tr>
                 <td>Tech/Wrath/Cannon</td>
-                <td>Kami/Huntress/Ana; Tech/Cannon/Lust; Flare/Siren/Dawn; Kami/Tech/Wrath</td>
+                <td>Kami/Huntress/Ana</br>Tech/Cannon/Lust</br>Flare/Siren/Dawn</br>Kami/Tech/Wrath</td>
             </tr>
             <tr>
                 <td>Tech/Wrath/Retro</td>
